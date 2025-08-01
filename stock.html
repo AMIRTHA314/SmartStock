@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Stack - Stock</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Smart Stack - Stock</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="stockTableBody"></tbody>
+  </table>
+
+  <h2>Add Stock Item</h2>
+  <form id="addStockForm">
+    <input type="text" placeholder="Product Name" id="stockProduct" required />
+    <input type="number" placeholder="Quantity" id="stockQuantity" required />
+    <button type="submit">Add Stock</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>

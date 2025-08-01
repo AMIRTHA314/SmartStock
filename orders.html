@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Stack - Orders</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Smart Stack - Orders</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Quantity</th>
+        <th>Delivery Date</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="ordersTableBody"></tbody>
+  </table>
+
+  <h2>Add Order</h2>
+  <form id="addOrderForm">
+    <input type="text" placeholder="Product Name" id="orderProduct" required />
+    <input type="number" placeholder="Quantity" id="orderQuantity" required />
+    <input type="date" id="orderDate" required />
+    <button type="submit">Add Order</button>
+  </form>
+
+  <script src="app.js"></script>
+</body>
+</html>

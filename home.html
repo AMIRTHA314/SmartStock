@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Stack - Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Smart Stack</h1>
+  <div class="card-container">
+    <div class="card" id="ordersCard">
+      <h2>Orders</h2>
+      <button onclick="toggleViewBox('orders')">View</button>
+      <div class="view-box" id="ordersViewBox">
+        <button onclick="navigateTo('orders.html')">Go to Orders</button>
+      </div>
+    </div>
+
+    <div class="card" id="stockCard">
+      <h2>Stock</h2>
+      <button onclick="toggleViewBox('stock')">View</button>
+      <div class="view-box" id="stockViewBox">
+        <button onclick="navigateTo('stock.html')">Go to Stock</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
